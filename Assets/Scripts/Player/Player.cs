@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
     }
     public void Freeze()//Freeze recoil and slide
     {
-        if (Input.GetKey(KeyCode.Z)){
+        if (Input.GetKey(KeyCode.Mouse1)){
             frozen = true;
             slide = true;}
         else{
